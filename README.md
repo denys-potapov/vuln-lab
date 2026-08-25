@@ -1,1 +1,3 @@
 # vuln-lab
+
+`dotnet/` is a minimal .NET console app used to test reachability analysis for vulnerable dependencies. It references two packages with known CVEs: `Newtonsoft.Json` 12.0.1 (GHSA-5crp-9r3c-p9vr), whose `JsonConvert` API is actually called from `Program.cs`, and `System.Text.Encodings.Web` 4.5.0 (GHSA-24c2-23r3-8vpr), which is declared but never imported or used. A correct reachability check should flag the former as reachable and the latter as not.
