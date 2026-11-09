@@ -1,0 +1,4 @@
+{
+  // babel 6 config of the legacy widget, preset given by its short name
+  "presets": ["env"]
+}
