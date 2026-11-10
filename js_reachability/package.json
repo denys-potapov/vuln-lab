@@ -10,6 +10,7 @@
   "dependencies": {
     "@babel/core": "7.12.3",
     "@babel/preset-env": "7.12.1",
+    "@nuxt/nitro-server": "3.21.11",
     "axios": "0.21.1",
     "babel-plugin-lodash": "3.3.4",
     "babel-plugin-styled-components": "2.0.7",
@@ -25,17 +26,23 @@
     "moment": "2.29.1",
     "node-fetch": "2.6.0",
     "request": "2.88.2",
+    "srvx": "0.11.22",
     "style-loader": "2.0.0",
     "swagger-ui-dist": "3.52.0",
+    "ua-parser-js": "0.7.28",
     "underscore": "1.12.0",
     "validator": "13.6.0",
+    "ws": "7.4.5",
     "xml2js": "0.4.23"
   },
   "overrides": {
     "loader-utils@2": "2.0.0",
     "postcss@8": "8.4.20",
     "semver@5": "5.7.1",
-    "lodash": "4.17.20"
+    "lodash": "4.17.20",
+    "nitropack": "2.13.4",
+    "listhen": "1.10.1",
+    "crossws": "0.4.15"
   },
   "babel": {
     "plugins": [
